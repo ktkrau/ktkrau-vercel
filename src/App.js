@@ -20,6 +20,12 @@ function App() {
   
   return (
     <>
+    <div className="head1">
+      <div className="flecha">
+      <img  src="flecha.png" alt=""></img></div>
+      <div className="titulo">
+      <h1>Perfiles de usuarios</h1></div>
+    </div>
     
     <div>
       <Profiles users={users}/>

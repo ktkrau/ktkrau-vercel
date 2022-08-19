@@ -5,6 +5,21 @@
   margin: 0;
   padding: 0;
 }
+.head1{
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+
+.flecha{
+  float: left;
+
+}
+.titulo{
+  margin-top: 4px;
+  float: left;
+  color: #3069a9;
+  margin-left: 15px;
+}
 .head{
   display: flex;
   align-items: center;
@@ -14,7 +29,7 @@
 .search-box{
   max-width: 400px;
   width: 100%;
-  
+
   
 
 }
@@ -90,8 +105,8 @@ body {
   position: absolute;
   width: 100%;
   height: 35%;
-  background: linear-gradient(to right, #025bb8 11%,#76adff 83%);
-  opacity: 65%;
+  background: linear-gradient(to right, #263d83 11%,#4498cf 83%);
+  opacity: 75%;
 } 
 
 .profile-img {
